@@ -1,3 +1,25 @@
+/* ============================================== HEADER ============================================================ */
 header {
-    margin: 0;
+    background: #f00e1e;
+    max-width: 1300px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+header .logo {
+    font-family: 'Hepta Slab', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+}
+
+header .sign-in {
+    color: #fff;
+    font-weight: 700;
+}
+
+header .subscribe {
+    color: #f00e1e;
+    font-weight: 700;
+    background: #fff;
 }
