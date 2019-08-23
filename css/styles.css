@@ -1,8 +1,14 @@
 /* ============================================== HEADER ============================================================ */
-header {
-    background: #f00e1e;
+header,
+main,
+footer {
     max-width: 1300px;
     margin: 0 auto;
+}
+
+/* top header */
+header .top-header {
+    background: #f00e1e;
     color: #fff;
 }
 
@@ -22,4 +28,21 @@ header .subscribe {
     color: #f00e1e;
     font-weight: 700;
     background: #fff;
+}
+
+/* bottom header */
+header .bottom-header {
+    font-size: 20px;
+}
+
+header .bottom-header a {
+    color: #000;
+}
+
+header .bottom-header .left-border {
+    border-left: solid 1px #e2e2e2;
+}
+
+header .bottom-shadow {
+    box-shadow: 0 2px 3px -1px #e2e2e2;
 }
