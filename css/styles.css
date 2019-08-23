@@ -39,6 +39,10 @@ header .bottom-header a {
     color: #000;
 }
 
+header .bottom-header a:hover {
+    color: #f00e1e;
+}
+
 header .bottom-header .left-border {
     border-left: solid 1px #e2e2e2;
 }
@@ -46,3 +50,10 @@ header .bottom-header .left-border {
 header .bottom-shadow {
     box-shadow: 0 2px 3px -1px #e2e2e2;
 }
+
+header .bottom-header .search input {
+    border: none;
+}
+
+/* ====================================================== MAIN ====================================================== */
+
