@@ -4,25 +4,118 @@ main,
 footer {
     max-width: 1300px;
     margin: 0 auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 17px;
+}
+
+p {
+    font-size: 15px;
+    color: #333;
 }
 
 .image-container img {
     width: 100%;
 }
 
+.w-20 {
+    width: 20%;
+}
+
+.w-29 {
+    width: 29%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
 .w-40 {
     width: 40%;
+}
+
+.w-44 {
+    width: 44%;
 }
 
 .w-60 {
     width: 60%;
 }
 
+.w-80 {
+    width: 80%;
+}
+
+.n-icon {
+    display: inline-block;
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 30px;
+    max-height: 30px;
+    color: #fff;
+    background: #f72212;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.red-tag {
+    color: #f72210;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5px 15px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.red-tag:hover {
+    color: #f72210;
+}
+
+.red-under:hover {
+    text-decoration: underline #f72210;
+}
+
+.red-text:hover {
+    color: #f72210;
+}
+
+.gray-btn {
+    padding: 5px 10px;
+    background: #666;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.gray-btn:hover {
+    opacity: 0.5;
+}
+
 /* ============================================== HEADER ============================================================ */
 
 /* top header */
 header .top-header {
-    background: #f00e1e;
+    background: #f72210;
     color: #fff;
 }
 
@@ -39,7 +132,7 @@ header .sign-in {
 }
 
 header .subscribe {
-    color: #f00e1e;
+    color: #f72210;
     font-weight: 700;
     background: #fff;
 }
@@ -50,7 +143,7 @@ header .bottom-header a {
 }
 
 header .bottom-header a:hover {
-    color: #f00e1e;
+    color: #f72210;
 }
 
 header .bottom-header .left-border {
@@ -66,3 +159,62 @@ header .bottom-header .search input {
 }
 
 /* ====================================================== MAIN ====================================================== */
+.featured .summary,
+.featured .author {
+    font-family: Arial, sans-serif;
+}
+
+/* opinion section */
+.featured .opinion .article-title {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.featured .opinion .author {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* latest news */
+.featured .latest-news .article-title {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+/* culture & travel */
+.featured .culture-travel .article-title {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    color: #272727;
+}
+
+.featured .culture-travel .summary {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgba(39, 39, 39, 0.5);
+}
+
+.featured .culture-travel .tags a {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 13px;
+    background: #c2d4d7;
+    color: #272727;
+    padding: 1px 6px;
+}
+
+.featured .culture-travel .tags a:hover {
+    background: #272727;
+    color: #c2d4d7;
+}
+
+/* more stories */
+.featured .more-stories .article-title {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+/* sign up */
+.sign-up .title {
+    font-size: 20px;
+    font-weight: 700;
+}
