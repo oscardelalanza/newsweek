@@ -208,7 +208,11 @@ header .bottom-header .search input {
 .featured .culture-travel .article-title {
     font-family: 'Lora', serif;
     font-size: 20px;
-    color: #272727;
+    line-height: 20px;
+}
+
+.featured .culture-travel .article-title a {
+    color: rgba(39, 39, 39, 0.9);
 }
 
 .featured .culture-travel .summary {
