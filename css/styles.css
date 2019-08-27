@@ -30,8 +30,14 @@ p {
     color: #333;
 }
 
+.image-container {
+    overflow: hidden;
+}
+
 .image-container img {
     width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .w-20 {
@@ -162,6 +168,23 @@ header .bottom-header .search input {
 .featured .summary,
 .featured .author {
     font-family: Arial, sans-serif;
+}
+
+.featured .section-title {
+    font-size: 16px;
+    color: rgba(3, 3, 3, 0.4);
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+/* featured stories */
+.featured-stories article {
+    margin-bottom: 0.5rem;
+}
+
+.featured-stories article .image-container {
+    max-height: 14rem;
+    margin-bottom: 1rem;
 }
 
 /* opinion section */
