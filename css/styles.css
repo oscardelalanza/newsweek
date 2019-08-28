@@ -7,6 +7,12 @@ footer {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
 a {
     color: #000;
 }
@@ -325,7 +331,7 @@ header .bottom-header .search input {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* featured slideshows */
+/* featured slide shows */
 .bottom-content .slide-shows .icon-slide {
     bottom: 0;
     left: 0;
@@ -422,4 +428,62 @@ header .bottom-header .search input {
 
 .bottom-content .subs-news .newsletter .image-container img {
     height: 100%;
+}
+
+/* ======================================================== FOOTER ================================================== */
+.footer-top .logo {
+    display: inline-block;
+    font-family: 'Hepta Slab', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #f72210;
+}
+
+.footer-top .copyright {
+    font-size: 12px;
+    color: #666;
+}
+
+.footer-top .media {
+    font-size: 26px;
+}
+
+.footer-top .media .facebook,
+.footer-top .media .twitter,
+.footer-top .media .instagram,
+.footer-top .media .tumblr,
+.footer-top .media .linked-in {
+    color: #666;
+}
+
+.footer-top .media .facebook:hover {
+    color: #3b5998;
+}
+
+.footer-top .media .twitter:hover {
+    color: #1da1f2;
+}
+
+.footer-top .media .instagram:hover {
+    color: #e1306c;
+}
+
+.footer-top .media .tumblr:hover {
+    color: #35465c;
+}
+
+.footer-top .media .linked-in:hover {
+    color: #0077b5;
+}
+
+.footer-bottom .link {
+    color: #666;
+}
+
+.footer-bottom .link:hover {
+    color: #000;
+}
+
+.footer-bottom .editions .title {
+    font-weight: 700;
 }
