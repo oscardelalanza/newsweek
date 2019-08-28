@@ -109,6 +109,10 @@ p {
     background-color: rgba(255, 255, 255, 0.9);
 }
 
+.sponsor .red-tag {
+    color: #3581f4;
+}
+
 .red-tag:hover {
     color: #f72210;
 }
