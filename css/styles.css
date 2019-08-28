@@ -242,6 +242,16 @@ header .bottom-header .search input {
     font-weight: 700;
 }
 
+/* latest news */
+.featured .latest-news .image-container img {
+    height: 100%;
+    object-fit: fill;
+}
+
+.featured .latest-news .image-container {
+    height: 5.5rem;
+}
+
 /* sign up */
 .sign-up .title {
     font-size: 20px;
