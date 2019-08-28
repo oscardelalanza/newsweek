@@ -193,9 +193,11 @@ header .bottom-header .search input {
     font-weight: 700;
 }
 
-.featured .opinion .author {
-    font-size: 12px;
+.featured .opinion article .author {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
     font-weight: 700;
+    color: #555;
 }
 
 /* latest news */
