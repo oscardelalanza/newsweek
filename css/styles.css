@@ -376,3 +376,50 @@ header .bottom-header .search input {
     font-weight: 700;
     color: #f72210;
 }
+
+/* subscribe and news letters  */
+.bottom-content .subs-news article {
+    height: 20.5rem;
+}
+
+.bottom-content .subs-news .title {
+    color: #f72210;
+    font-weight: 700;
+}
+
+.bottom-content .subs-news .red-btn {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px 10px;
+    background: #f72210;
+    color: #fff;
+}
+
+.bottom-content .subs-news .red-btn:hover {
+    background: #b61f10;
+}
+
+.bottom-content .subs-news .superposed #img1 {
+    top: 0;
+    left: 0;
+}
+
+.bottom-content .subs-news .superposed #img2 {
+    top: 1.5rem;
+    left: 5rem;
+}
+
+.bottom-content .subs-news .subscribe .article-title {
+    font-size: 24px;
+    color: #000;
+}
+
+.bottom-content .subs-news .newsletter .article-title {
+    font-size: 20px;
+    color: #000;
+}
+
+.bottom-content .subs-news .newsletter .image-container img {
+    height: 100%;
+}
