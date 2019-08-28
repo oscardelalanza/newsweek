@@ -315,3 +315,12 @@ header .bottom-header .search input {
     text-decoration: none;
     background: #ddd;
 }
+
+/* editor's pick */
+.bottom-content .editors-pick .article-title {
+    font-size: 24px;
+}
+
+.bottom-content .editors-pick .summary {
+    font-family: Arial, Helvetica, sans-serif;
+}
