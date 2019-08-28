@@ -365,3 +365,14 @@ header .bottom-header .search input {
     font-size: 17px;
     font-weight: 700;
 }
+
+.bottom-content .us .section-title,
+.bottom-content .world .section-title,
+.bottom-content .business .section-title,
+.bottom-content .tech .section-title,
+.bottom-content .culture .section-title,
+.bottom-content .sports .section-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #f72210;
+}
