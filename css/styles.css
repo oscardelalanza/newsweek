@@ -344,3 +344,24 @@ header .bottom-header .search input {
     font-size: 22px;
     font-weight: 700;
 }
+
+/* us, world, business, tech, culture, sports */
+.bottom-content .us .article-title,
+.bottom-content .world .article-title,
+.bottom-content .business .article-title,
+.bottom-content .tech .article-title,
+.bottom-content .culture .article-title,
+.bottom-content .sports .article-title {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.bottom-content .us .column .article-title,
+.bottom-content .world .column .article-title,
+.bottom-content .business .column .article-title,
+.bottom-content .tech .column .article-title,
+.bottom-content .culture .column .article-title,
+.bottom-content .sports .column .article-title {
+    font-size: 17px;
+    font-weight: 700;
+}
