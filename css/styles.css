@@ -324,3 +324,23 @@ header .bottom-header .search input {
 .bottom-content .editors-pick .summary {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* featured slideshows */
+.bottom-content .slide-shows .icon-slide {
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 15px;
+}
+
+.bottom-content .slide-shows .red-border {
+    border: solid 1px #f72210;
+    padding: 3px 18px;
+    font-weight: 700;
+    color: #f72210;
+}
+
+.bottom-content .slide-shows .article-title {
+    font-size: 22px;
+    font-weight: 700;
+}
