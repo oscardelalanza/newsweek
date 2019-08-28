@@ -40,6 +40,16 @@ p {
     object-position: center;
 }
 
+.image-container-aux {
+    overflow: hidden;
+}
+
+.image-container-aux img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 .w-20 {
     width: 20%;
 }
@@ -256,4 +266,52 @@ header .bottom-header .search input {
 .sign-up .title {
     font-size: 20px;
     font-weight: 700;
+}
+
+/* -------------------------------------- bottom content --------------------------------- */
+
+/* in the magazine */
+.bottom-content .magazine .image-container {
+    height: 17.5rem;
+}
+
+.bottom-content .magazine .image-container img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.bottom-content .magazine .category {
+    margin: 8px 0;
+}
+
+.bottom-content .magazine .category .red-span {
+    display: inline-block;
+    padding: 3px 8px;
+    background: #f72210;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.bottom-content .magazine .category .white-link {
+    display: inline-block;
+    padding: 3px 8px;
+    color: #f72210;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.bottom-content .magazine .article-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bottom-content .magazine .btn-link {
+    display: block;
+    color: #000;
+}
+
+.bottom-content .magazine .btn-link:hover {
+    text-decoration: none;
+    background: #ddd;
 }
