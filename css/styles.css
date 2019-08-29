@@ -188,6 +188,22 @@ header .bottom-header .search input {
     border: none;
 }
 
+.header-sticky {
+    top: 0;
+    z-index: 100;
+    background: #f72210;
+    color: #fff;
+}
+
+.header-sticky .logo {
+    font-size: 26px;
+}
+
+.header-sticky .menu {
+    color: #fff;
+    font-size: 20px;
+}
+
 /* ====================================================== MAIN ====================================================== */
 .featured .summary,
 .featured .author {

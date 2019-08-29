@@ -23,7 +23,7 @@
 <body>
 
     <!-- ------------------------------- HEADER ------------------------------------ -->
-    <header>
+    <header class="d-lg-block d-md-none">
         <!-- top header -->
         <div class="container-fluid top-header ">
             <div class="row">
@@ -63,6 +63,15 @@
                 </form>
             </div>
 
+        </div>
+    </header>
+
+    <header class="d-lg-none d-md-flex d-md-block position-sticky header-sticky pt-md-2 pb-md-1 mb-md-2">
+        <h1 class="col-md-3 logo">Newsweek</h1>
+        <div class="offset-md-6 col-md-3 align-self-center d-md-flex justify-content-end">
+            <a href="#" class="sign-in d-md-block text-decoration-none">SIGN IN</a>
+            <a href="#" class="subscribe d-md-block ml-md-2 mb-md-1 pr-md-2 pl-md-2 text-decoration-none">SUBSCRIBE <i class="fas fa-chevron-right"></i></a>
+            <a href="#" class="menu d-md-block ml-md-2"><i class="fas fa-bars"></i></a>
         </div>
     </header>
 
