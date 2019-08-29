@@ -52,8 +52,12 @@ p {
 
 .image-container-aux img {
     width: 100%;
-    object-fit: cover;
+    object-fit: fill;
     object-position: center;
+}
+
+.w-10 {
+    width: 10%;
 }
 
 .w-20 {
@@ -224,6 +228,11 @@ header .bottom-header .search input {
 .featured .latest-news .article-title {
     font-size: 17px;
     font-weight: 700;
+}
+
+.featured .latest-news .image-container img {
+    object-fit: fill;
+    width: 100%;
 }
 
 /* culture & travel */
