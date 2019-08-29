@@ -246,11 +246,6 @@ header .bottom-header .search input {
     font-weight: 700;
 }
 
-.featured .latest-news .image-container img {
-    object-fit: fill;
-    width: 100%;
-}
-
 /* culture & travel */
 .featured .culture-travel .article-title {
     font-family: 'Lora', serif;
