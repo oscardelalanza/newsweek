@@ -429,6 +429,16 @@ header .bottom-header .search input {
     left: 5rem;
 }
 
+.bottom-content .subs-news .superposed #img1-md {
+    top: 0;
+    left: 0;
+}
+
+.bottom-content .subs-news .superposed #img2-md {
+    top: 1.5rem;
+    left: 5rem;
+}
+
 .bottom-content .subs-news .subscribe .article-title {
     font-size: 24px;
     color: #000;
