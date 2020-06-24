@@ -17,9 +17,27 @@ You can find the original specification for this project here: [The Odin Project
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
-- open a new terminal and run the following command:
-- `git clone git@github.com:oscardelalanza/newsweek.git`
+### Prerequisites
+
+- `git`
+
+### Setup
+
+To clone the project into your local environment do the following
+
+- open a new `terminal` window and navigate to the directory where the project will be stored
+- run the command `git clone git@github.com:oscardelalanza/newsweek.git`
+- run the command `cd newsweek` to enter to the project directory
+
+### Usage
+
+To start the local development server do the following
+
+- open the file `index.html` in your web browser 
+
+### Run tests
+
+- no written tests yet
 
 ## Authors
 
