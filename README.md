@@ -46,6 +46,7 @@ To start the local development server do the following
 - Github: [@oscardelalanza](https://github.com/oscardelalanza)
 - Twitter: [@oscardelalanza](https://twitter.com/oscardelalanza)
 - Linkedin: [Oscar De La Lanza](https://linkedin.com/in/oscardelalanza)
+- Email: oscardelalanza@gmail.com
 
 ## 🤝 Contributing
 
