@@ -37,7 +37,7 @@ To start the local development server do the following.
 
 ### Run tests
 
-- This project doesn't contain testes.
+- This project doesn't contain tests.
 
 ## Authors
 
