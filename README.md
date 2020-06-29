@@ -35,13 +35,15 @@ To clone the project into your local environment do the following.
 
 ### Usage
 
-To start the local development server do the following.
-
-- Open the file `index.html` in your web browser 
+*This project is an HTML form template. Is only demonstrative and does not contain functional features.*
 
 ### Run tests
 
 - This project doesn't contain tests.
+
+### Deployment
+
+- Open `index.html` file to go directly to the page, or use your preferred web server.
 
 ## Authors
 
