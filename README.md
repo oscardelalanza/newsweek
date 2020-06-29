@@ -29,6 +29,10 @@ To clone the project into your local environment do the following.
 - Run the command `git clone git@github.com:oscardelalanza/newsweek.git`.
 - Run the command `cd newsweek` to enter to the project directory.
 
+### Install
+
+- This project doesn't require installation, node modules, or similar.
+
 ### Usage
 
 To start the local development server do the following.
