@@ -1,6 +1,6 @@
 # Using Bootstrap
 
-> This project consist on build a replica of the news site [Newsweek.com](https://www.newsweek.com/) using the Bootstrap framework.
+> This project consists of building a replica of the news site [Newsweek.com](https://www.newsweek.com/) using the Bootstrap framework.
 
 ![screenshot](./screenshot.PNG)
 
@@ -36,10 +36,6 @@ To clone the project into your local environment do the following.
 ### Usage
 
 *This project is an HTML form template. Is only demonstrative and does not contain functional features.*
-
-### Run tests
-
-- This project doesn't contain tests.
 
 ### Deployment
 
